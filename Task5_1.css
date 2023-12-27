@@ -1,0 +1,106 @@
+body
+   {
+    position: static;
+    margin: 0;
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-family: Arial, sans-serif; /* Рубленый шрифт */
+    overflow: auto;
+    clear: none;
+   }
+section.QvestionBlock{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+section.News1{
+padding:20px;
+background-color: #adffff;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 3px black;
+}
+section.News2{
+padding:20px;
+background-color: #adffff;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 3px black;
+}
+section.News3{
+padding:20px;
+background-color: #adffff;
+margin-left: auto;
+margin-right: auto;
+border-bottom: solid 3px black;
+}
+
+#News1_Window,#News2_Window,#News3_Window {
+  background: rgba(102, 102, 102, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+#okno {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+  margin:0;
+  background-color: yellow;
+}
+#News1_Window:target {display: block;}
+#News2_Window:target {display: block;}
+#News3_Window:target {display: block;}
+.close {
+   text-decoration: none;
+   color:black;
+}
+
+
+section.News1:hover{
+background-color: red; /* make this whatever you want */
+}
+section.News2:hover{
+background-color: red; /* make this whatever you want */
+}
+section.News3:hover{
+background-color: red; /* make this whatever you want */
+}
+
+div.PressBottom1 a{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  text-decoration-line: none;
+}
+div.PressBottom1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: white;
+  outline: none;
+  border: 2px solid #2bf64c;
+  box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+  background: linear-gradient(#95FB75, 	#38f45a 48%, 	green 52%, #17f02f);
+}
+div.PressBottom1:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
